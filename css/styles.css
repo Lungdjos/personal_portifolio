@@ -1,1 +1,7 @@
 /** STYLING FOR THE PORTIFOLIO **/
+
+
+/* the root selector */
+:root {
+    --bc-1: white;
+}
