@@ -3,5 +3,8 @@
 
 /* the root selector */
 :root {
+    /* colors */
     --bc-1: white;
+
+    /* values */
 }
