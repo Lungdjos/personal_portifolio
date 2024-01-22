@@ -8,11 +8,41 @@
 
     /* values */
 }
+
+/* nav bar styling */
+#navbar{
+    background-color: coral;
+    color: aliceblue;
+    font-size: large;
+    position: sticky;
+    width: 100vw;
+    height: 40%;
+}
+
+#navbar>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: right;
+}
+
+#navbar>li {
+    list-style-type: none;
+}
+
+/* body tyling */
 body{
-    margin: 0;
+    margin: auto;
     padding: auto;
 }
 section{
     height: 100vh;
     width: 100vw;
 }
+
+/* footer styling */
+footer{
+    background-color: bisque;
+    height: 10%;
+}
+
