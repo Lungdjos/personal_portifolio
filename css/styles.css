@@ -9,6 +9,10 @@
     /* values */
 }
 
+html {
+    box-sizing: border-box;
+}
+
 /* nav bar styling */
 #navbar{
     background-color: coral;
@@ -17,6 +21,7 @@
     position: sticky;
     width: 100vw;
     height: 40%;
+    top: 0;
 }
 
 #navbar>ul {
@@ -31,9 +36,9 @@
 }
 
 /* body tyling */
-body{
-    margin: auto;
-    padding: auto;
+body {
+    padding: 0;
+    margin: 0;
 }
 section{
     height: 100vh;
@@ -44,5 +49,7 @@ section{
 footer{
     background-color: bisque;
     height: 10%;
+    bottom: 0;
+    margin: 0;
 }
 
