@@ -15,30 +15,35 @@ html {
 
 /* nav bar styling */
 #navbar{
-    background-color: coral;
-    color: aliceblue;
     font-size: large;
     position: sticky;
     width: 100vw;
-    height: 40%;
+    height: 100px;
+    align-items: center;
     top: 0;
+    z-index: 10;
+    background-color: coral;
 }
 
 #navbar>ul {
     display: flex;
+    list-style-type: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 800;
     align-items: center;
-    justify-content: space-evenly;
-    justify-items: right;
 }
 
-#navbar>li {
-    list-style-type: none;
+nav.nav-link {
+    text-decoration: none;
+    padding: 4px;
 }
 
 /* body tyling */
 body {
-    padding: 0;
-    margin: 0;
+    overflow-x: hidden;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 section{
     height: 100vh;
@@ -48,8 +53,5 @@ section{
 /* footer styling */
 footer{
     background-color: bisque;
-    height: 10%;
-    bottom: 0;
-    margin: 0;
 }
 
