@@ -44,6 +44,8 @@ body {
     overflow-x: hidden;
     padding-bottom: 0;
     margin-bottom: 0;
+    background: linear-gradient(15deg, aliceblue 20%, #898 30%, 20deg, grey 35%, antiquewhite 15%);
+    color: antiquewhite;
 }
 section{
     height: 100vh;
