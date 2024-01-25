@@ -16,7 +16,6 @@
 }
 
 body {
-    overflow-x: hidden;
     background-color: var(--bc-1);
     font-family: 'Lato', sans-serif;
 }
@@ -46,6 +45,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 nav>ul {
@@ -63,9 +63,40 @@ nav>ul {
     margin: 0 auto;
 }
 
-section{
+main> li {
+    list-style-type: disc;
+}
+
+main > #home {
+    margin-top: 200px;
     height: 100vh;
-    width: 100vw;
+}
+
+
+
+
+
+/* Work Experience */
+#Work-Experience {
+    margin-top: 5px;
+}
+
+#Work-Experience #icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 20vw;
+}
+
+
+#Work-Experience .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
 }
 
 /* footer styling */
