@@ -9,11 +9,18 @@
     /* values */
 }
 
-html {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* nav bar styling */
+
+nav {
+    font-weight: 600;
+}
+
 #navbar{
     font-size: large;
     position: sticky;
@@ -25,13 +32,12 @@ html {
     background-color: coral;
 }
 
-#navbar>ul {
+nav>ul {
+    width: 30vw;
     display: flex;
-    list-style-type: none;
-    color: aliceblue;
-    text-transform: uppercase;
-    font-weight: 800;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;    
 }
 
 nav.nav-link {
