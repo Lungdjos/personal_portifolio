@@ -4,7 +4,7 @@
 /* the root selector */
 :root {
     /* colors */
-    --bc-1: white;
+    --bc-1: #99a2a2;
 
     /* values */
 }
@@ -16,7 +16,8 @@
 }
 
 body {
-    background-color: var(--bc1);
+    overflow-x: hidden;
+    background-color: var(--bc-1);
     font-family: 'Lato', sans-serif;
 }
 
@@ -25,6 +26,7 @@ li {
 }
 
 a {
+    color: aliceblue;
     font-weight: bold;
     text-decoration: none;
 }
@@ -55,13 +57,12 @@ nav>ul {
 }
 
 /* body tyling */
-body {
-    overflow-x: hidden;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    background: linear-gradient(15deg, aliceblue 20%, #898 30%, 20deg, grey 35%, antiquewhite 15%);
-    color: antiquewhite;
+#spacer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
 }
+
 section{
     height: 100vh;
     width: 100vw;
@@ -69,6 +70,26 @@ section{
 
 /* footer styling */
 footer{
+    margin-top: 25px;
+    padding: 20px;
+    width: 100%;
     background-color: bisque;
+}
+
+footer>ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer>ul>li {
+    padding: 0 12px;
+}
+
+footer>span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    font-size: .9rem;
+    font-weight: bold;
 }
 
