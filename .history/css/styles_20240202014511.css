@@ -244,9 +244,9 @@ footer>span {
         transform: translateY(-60px);
         opacity: 0;
     }
-    50% {
+    0% {
         transform: translateY(-60px);
-        opacity: 0.4;
+        opacity: 0;
     }
     100% {
         transform: translateY(0);

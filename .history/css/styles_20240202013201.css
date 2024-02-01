@@ -158,11 +158,6 @@ main>li {
     text-indent: 10px;
 }
 
-#sub-title span {
-    display: inline-block;
-    animation: fallAnimation 4s infinite ease-in-out forwards;
-}
-
 
 /* Work Experience */
 
@@ -217,9 +212,6 @@ footer>span {
 
 /* ANIMATIONS AND EFFECTS */
 
-
-/* Welcome Page Animations */
-
 @keyframes rotateAndChangeColor {
     0% {
         transform: rotateY(0deg);
@@ -229,28 +221,10 @@ footer>span {
         transform: rotateY(360deg);
         color: #2e604a;
     }
-    60% {
-        transform: rotate(0deg);
-        color: #45567d;
-    }
+    60% {}
     90% {
         transform: rotate(360deg);
         color: #ff6347;
-    }
-}
-
-@keyframes fallAnimation {
-    0% {
-        transform: translateY(-60px);
-        opacity: 0;
-    }
-    50% {
-        transform: translateY(-60px);
-        opacity: 0.4;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
     }
 }
 

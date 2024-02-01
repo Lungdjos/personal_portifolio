@@ -158,11 +158,6 @@ main>li {
     text-indent: 10px;
 }
 
-#sub-title span {
-    display: inline-block;
-    animation: fallAnimation 4s infinite ease-in-out forwards;
-}
-
 
 /* Work Experience */
 
@@ -218,7 +213,7 @@ footer>span {
 /* ANIMATIONS AND EFFECTS */
 
 
-/* Welcome Page Animations */
+/* Welcome Page nimations */
 
 @keyframes rotateAndChangeColor {
     0% {
@@ -236,21 +231,6 @@ footer>span {
     90% {
         transform: rotate(360deg);
         color: #ff6347;
-    }
-}
-
-@keyframes fallAnimation {
-    0% {
-        transform: translateY(-60px);
-        opacity: 0;
-    }
-    50% {
-        transform: translateY(-60px);
-        opacity: 0.4;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
     }
 }
 
