@@ -214,7 +214,7 @@ footer>span {
 
 @keyframes rotateAndChangeColor {
     0% {
-        transform: rotateY(0deg);
+        transform: rotateX(0deg);
         color: #333;
     }
     50% {

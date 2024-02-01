@@ -144,18 +144,7 @@ main>li {
 
 #welcome-section>p {
     font-size: 3rem;
-    font-weight: 200;
-    font-style: italic;
-    color: #d0a;
-}
-
-#title {
-    transform-origin: center;
-    animation: rotateAndChangeColor 4s infinite ease-in-out;
-}
-
-#sub-title {
-    text-indent: 10px;
+    font-weight: ;
 }
 
 
@@ -207,26 +196,6 @@ footer>span {
     margin-top: 6px;
     font-size: .9rem;
     font-weight: bold;
-}
-
-
-/* ANIMATIONS AND EFFECTS */
-
-@keyframes rotateAndChangeColor {
-    0% {
-        transform: rotateY(0deg);
-        color: #333;
-    }
-    50% {
-        transform: rotateY(360deg);
-        color: #2e604a;
-        /* Change to the desired color */
-    }
-    100% {
-        transform: rotate(360deg);
-        color: #ff6347;
-        /* Change to the desired color */
-    }
 }
 
 

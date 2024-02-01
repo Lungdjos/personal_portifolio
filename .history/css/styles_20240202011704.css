@@ -149,15 +149,6 @@ main>li {
     color: #d0a;
 }
 
-#title {
-    transform-origin: center;
-    animation: rotateAndChangeColor 4s infinite ease-in-out;
-}
-
-#sub-title {
-    text-indent: 10px;
-}
-
 
 /* Work Experience */
 
@@ -210,24 +201,7 @@ footer>span {
 }
 
 
-/* ANIMATIONS AND EFFECTS */
-
-@keyframes rotateAndChangeColor {
-    0% {
-        transform: rotateY(0deg);
-        color: #333;
-    }
-    50% {
-        transform: rotateY(360deg);
-        color: #2e604a;
-        /* Change to the desired color */
-    }
-    100% {
-        transform: rotate(360deg);
-        color: #ff6347;
-        /* Change to the desired color */
-    }
-}
+/* ANIMATIONS  */
 
 
 /* STYLING FOR SMALL DEVICES */
