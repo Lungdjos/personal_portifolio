@@ -9,7 +9,6 @@
     --bc-1: #34a2a2;
     --bc-2: #0b2e28;
     --bc-3: #123b3b;
-    --bc-4: #45567d;
     /* values */
 }
 
@@ -112,7 +111,7 @@ nav>ul {
 }
 
 .nav-list a:hover {
-    background: var(--bc-4);
+    background: var(--main-blue);
 }
 
 
