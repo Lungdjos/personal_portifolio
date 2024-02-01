@@ -2,13 +2,11 @@
 
 
 /* the root selector */
-
 :root {
     /* colors */
     --main-col: aliceblue;
-    --bc-1: #34a2a2;
-    --bc-2: #0b2e28;
-    --bc-3: #123b3b;
+    --bc-1: #99a2a2;
+
     /* values */
 }
 
@@ -23,32 +21,25 @@ html {
     padding: 0;
 }
 
-
 /* box-sizing and font sizing */
-
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-
 /* body styling */
-
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.4;
     color: var(--main-col);
-    background-color: var(--bc-1);
 }
-
 
 /* headings styling */
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     text-align: center;
@@ -56,14 +47,13 @@ h2 {
 
 h1 {
     font-size: 6rem;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 4.2rem;
-}
+  }
 
-
-/* List and anchor styling */
+  /* List and anchor styling */
 
 ul {
     list-style: none;
@@ -77,8 +67,7 @@ a {
 img {
     display: block;
     width: 100%;
-}
-
+  }
 
 /* nav bar styling */
 
@@ -96,7 +85,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
-    background-color: var(--bc-2);
 }
 
 nav>ul {
@@ -104,30 +92,30 @@ nav>ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
-
 /* body tyling */
-
 #spacer {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
 
-main>li {
+main> li {
     list-style-type: disc;
 }
 
-main>#home {
+main > #home {
     margin-top: 200px;
     height: 100vh;
 }
 
 
-/* Work Experience */
 
+
+
+/* Work Experience */
 #Work-Experience {
     margin-top: 5px;
 }
@@ -140,6 +128,7 @@ main>#home {
     width: 20vw;
 }
 
+
 #Work-Experience .experience {
     display: flex;
     flex-direction: column;
@@ -149,17 +138,15 @@ main>#home {
     padding: 5px;
 }
 
-
 /* footer styling */
-
-footer {
+footer{
     margin-top: 25px;
     padding: 20px;
     width: 100%;
-    background-color: var(--bc-3);
+    background-color: bisque;
 }
 
-footer>ul {
+footer>ul{
     display: flex;
     justify-content: flex-end;
 }
@@ -179,29 +166,23 @@ footer>span {
 
 /* STYLING FOR SMALL DEVICES */
 
-
 /* 1200px / 16px = 75em */
-
 @media (max-width: 75em) {
     html {
-        font-size: 60%;
+      font-size: 60%;
     }
-}
-
-
-/* 980px / 16px = 61.25em */
-
-@media (max-width: 61.25em) {
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
     html {
-        font-size: 58%;
+      font-size: 58%;
     }
-}
-
-
-/* 460px / 16px = 28.75em */
-
-@media (max-width: 28.75em) {
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
     html {
-        font-size: 55%;
+      font-size: 55%;
     }
-}
+  }

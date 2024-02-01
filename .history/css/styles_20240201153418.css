@@ -8,7 +8,6 @@
     --main-col: aliceblue;
     --bc-1: #34a2a2;
     --bc-2: #0b2e28;
-    --bc-3: #123b3b;
     /* values */
 }
 
@@ -96,7 +95,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
-    background-color: var(--bc-2);
 }
 
 nav>ul {
@@ -156,7 +154,7 @@ footer {
     margin-top: 25px;
     padding: 20px;
     width: 100%;
-    background-color: var(--bc-3);
+    background-color: bisque;
 }
 
 footer>ul {
