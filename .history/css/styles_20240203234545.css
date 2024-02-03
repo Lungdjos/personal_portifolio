@@ -13,9 +13,6 @@
     /* values */
 }
 
-
-/* general stylings */
-
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -84,9 +81,6 @@ img {
 }
 
 
-/** NAVIGATION BAR */
-
-
 /* nav bar styling */
 
 nav {
@@ -122,7 +116,7 @@ nav>ul {
 }
 
 
-/* body styling */
+/* body tyling */
 
 #spacer {
     max-width: 1000px;
@@ -133,9 +127,6 @@ nav>ul {
 main>li {
     list-style-type: disc;
 }
-
-
-/** HOME PAGE */
 
 
 /* Styling or the Home Page */
@@ -173,7 +164,7 @@ main>li {
 }
 
 
-/** PROJECTS */
+/* PROJECTS */
 
 
 /* styling for projects */
@@ -212,9 +203,6 @@ main>li {
 } */
 
 
-/** FOOTER */
-
-
 /* footer styling */
 
 footer {
@@ -242,7 +230,7 @@ footer>span {
 }
 
 
-/** ANIMATIONS AND EFFECTS */
+/* ANIMATIONS AND EFFECTS */
 
 
 /* Welcome Page Animations */
@@ -282,7 +270,7 @@ footer>span {
 }
 
 
-/** STYLING FOR SMALL DEVICES */
+/* STYLING FOR SMALL DEVICES */
 
 
 /* 1200px / 16px = 75em */
@@ -324,10 +312,4 @@ footer>span {
 }
 
 
-/* projects media query */
-
-@media (max-width: 28.75em) {
-    #project-heading {
-        font-size: 4rem;
-    }
-}
+/* projects */
