@@ -220,7 +220,7 @@ main>li {
 }
 
 .project:hover .code {
-    color: var(--colo-3);
+    color: #ff7f50;
 }
 
 .project-image {
@@ -247,7 +247,7 @@ main>li {
 }
 
 .btn-show-all:hover {
-    background: var(--colo-3);
+    background: var(--main-red);
 }
 
 .btn-show-all:hover>i {
@@ -403,14 +403,5 @@ footer>span {
 @media (max-width: 28.75em) {
     #project-heading {
         font-size: 4rem;
-    }
-}
-
-@media (max-width: 30.625em) {
-    .project-section {
-        padding: 6rem 1rem;
-    }
-    .project-grid {
-        grid-template-columns: 1fr;
     }
 }

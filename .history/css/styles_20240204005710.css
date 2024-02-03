@@ -407,10 +407,10 @@ footer>span {
 }
 
 @media (max-width: 30.625em) {
-    .project-section {
+    .projects-section {
         padding: 6rem 1rem;
     }
-    .project-grid {
+    .projects-grid {
         grid-template-columns: 1fr;
     }
 }

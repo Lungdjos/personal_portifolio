@@ -7,7 +7,6 @@
     /* colors */
     --col-1: aliceblue;
     --col-2: grey;
-    --colo-3: orangered;
     --bc-1: #34a2a2;
     --bc-2: #0b2e28;
     --bc-3: #123b3b;
@@ -215,12 +214,12 @@ main>li {
 }
 
 .code {
-    color: var(--col-2);
+    color: var(--co);
     transition: color 0.3s ease-out;
 }
 
 .project:hover .code {
-    color: var(--colo-3);
+    color: #ff7f50;
 }
 
 .project-image {
@@ -247,7 +246,7 @@ main>li {
 }
 
 .btn-show-all:hover {
-    background: var(--colo-3);
+    background: var(--main-red);
 }
 
 .btn-show-all:hover>i {
@@ -403,14 +402,5 @@ footer>span {
 @media (max-width: 28.75em) {
     #project-heading {
         font-size: 4rem;
-    }
-}
-
-@media (max-width: 30.625em) {
-    .project-section {
-        padding: 6rem 1rem;
-    }
-    .project-grid {
-        grid-template-columns: 1fr;
     }
 }
