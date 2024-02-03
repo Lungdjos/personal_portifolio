@@ -226,7 +226,7 @@ main>li {
 }
 
 .project:hover .code {
-    color: var(--col-3);
+    color: var(--colo-3);
 }
 
 .project-image {
@@ -253,7 +253,7 @@ main>li {
 }
 
 .btn-show-all:hover {
-    background: var(--col-3);
+    background: var(--colo-3);
 }
 
 .btn-show-all:hover>i {
@@ -312,7 +312,7 @@ main>li {
 
 .contact-section-header>p {
     font-style: italic;
-    color: var(--col-4);
+    color: var(--colo-3);
 }
 
 #contact-links {

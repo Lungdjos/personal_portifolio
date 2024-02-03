@@ -7,7 +7,7 @@
     /* colors */
     --col-1: aliceblue;
     --col-2: grey;
-    --col-3: orangered;
+    --colo-3: orangered;
     --col-4: #be3144;
     --bc-1: #34a2a2;
     --bc-2: #0b2e28;
@@ -226,7 +226,7 @@ main>li {
 }
 
 .project:hover .code {
-    color: var(--col-3);
+    color: var(--colo-3);
 }
 
 .project-image {
@@ -253,7 +253,7 @@ main>li {
 }
 
 .btn-show-all:hover {
-    background: var(--col-3);
+    background: var(--colo-3);
 }
 
 .btn-show-all:hover>i {
@@ -312,7 +312,7 @@ main>li {
 
 .contact-section-header>p {
     font-style: italic;
-    color: var(--col-4);
+    color: va;
 }
 
 #contact-links {

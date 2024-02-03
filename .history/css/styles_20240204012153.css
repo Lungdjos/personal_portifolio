@@ -7,8 +7,7 @@
     /* colors */
     --col-1: aliceblue;
     --col-2: grey;
-    --col-3: orangered;
-    --col-4: #be3144;
+    --colo-3: orangered;
     --bc-1: #34a2a2;
     --bc-2: #0b2e28;
     --bc-3: #123b3b;
@@ -226,7 +225,7 @@ main>li {
 }
 
 .project:hover .code {
-    color: var(--col-3);
+    color: var(--colo-3);
 }
 
 .project-image {
@@ -253,7 +252,7 @@ main>li {
 }
 
 .btn-show-all:hover {
-    background: var(--col-3);
+    background: var(--colo-3);
 }
 
 .btn-show-all:hover>i {
@@ -306,35 +305,6 @@ main>li {
     background: var(--bc-5);
 }
 
-.contact-section-header>h2 {
-    font-size: 6rem;
-}
-
-.contact-section-header>p {
-    font-style: italic;
-    color: var(--col-4);
-}
-
-#contact-links {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 980px;
-    margin-top: 4rem;
-    flex-wrap: wrap;
-}
-
-.contact-details {
-    font-size: 2.4rem;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-    transform: translateY(10px);
-    color: var(--col-4);
-}
-
 
 /** FOOTER */
 
@@ -345,7 +315,6 @@ footer {
     font-weight: 300;
     padding: 2rem;
     background-color: var(--bc-3);
-    border-top: 6px solid var(--bc-2);
 }
 
 footer>ul {
@@ -468,15 +437,6 @@ footer>span {
     }
     .project-grid {
         grid-template-columns: 1fr;
-    }
-}
-
-
-/** CONTACTS */
-
-@media (max-width: 28.75em) {
-    .contact-section-header>h2 {
-        font-size: 4rem;
     }
 }
 
