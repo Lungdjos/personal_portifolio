@@ -138,7 +138,7 @@ nav>ul {
     margin: 0 auto;
 }
 
-main li {
+main>li {
     list-style-type: disc;
 }
 
@@ -267,29 +267,18 @@ main li {
 }
 
 
-/** WORK EXPERIENCE */
-
-#work-experience-section {
-    padding-top: 6rem;
-    margin: 2rem;
-}
+/* Work Experience */
 
 .work-exp-section small {
     font-size: 60%;
 }
 
-#work-experience-section #icon {
+#Work-Experience #icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-#work-experience-section img {
-    border-radius: 3%;
     height: 150px;
-    width: 15vw;
-    margin-right: 1rem;
+    width: 20vw;
 }
 
 #work-experience-section .experience {
@@ -303,30 +292,6 @@ main li {
 
 #grid {
     display: flex;
-    margin: 3rem;
-    margin-left: 6rem;
-}
-
-.experience {
-    text-align: justify;
-}
-
-.experience ul {
-    padding-left: 2rem;
-}
-
-.skills {
-    color: var(--col-1);
-}
-
-.title-exp {
-    display: flex;
-    justify-content: space-between;
-}
-
-.title-exp code {
-    flex-direction: flex-end;
-    font-style: italic;
 }
 
 
@@ -506,30 +471,6 @@ footer>span {
     }
     .project-grid {
         grid-template-columns: 1fr;
-    }
-}
-
-
-/** WORK EXPERIENCE */
-
-@media (max-width: 550px) {
-    #work-experience-section #icon {
-        display: none;
-    }
-}
-
-@media (max-width: 550px) {
-    #work-experience-section .experience {
-        width: 100%;
-        text-align: center;
-        padding: 0;
-        height: 150px;
-    }
-}
-
-@media (max-width: 650px) {
-    #work-experience-section {
-        margin-top: 0;
     }
 }
 

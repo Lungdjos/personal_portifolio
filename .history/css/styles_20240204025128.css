@@ -270,7 +270,7 @@ main li {
 /** WORK EXPERIENCE */
 
 #work-experience-section {
-    padding-top: 6rem;
+    padding-top: 5rem;
     margin: 2rem;
 }
 
@@ -289,7 +289,6 @@ main li {
     border-radius: 3%;
     height: 150px;
     width: 15vw;
-    margin-right: 1rem;
 }
 
 #work-experience-section .experience {
@@ -304,7 +303,7 @@ main li {
 #grid {
     display: flex;
     margin: 3rem;
-    margin-left: 6rem;
+    margin-left: 1rem;
 }
 
 .experience {
