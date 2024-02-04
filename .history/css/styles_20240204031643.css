@@ -233,7 +233,7 @@ main li {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .project-title {
@@ -244,7 +244,7 @@ main li {
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .btn-show-all {
