@@ -531,13 +531,8 @@ footer>span {
 @media (max-width: 650px) {
     #work-experience-section {
         margin-top: 0;
-        padding: 6rem 1rem;
-        grid-template-columns: 1fr;
     }
 }
-
-
-/* TODO: implement view for small gadgets on work experience */
 
 
 /** CONTACTS */
