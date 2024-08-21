@@ -1,0 +1,205 @@
+/** STYLING FOR THE PORTIFOLIO **/
+
+
+/* the root selector */
+
+:root {
+    /* colors */
+    --main-col: aliceblue;
+    --bc-1: #34a2a2;
+    --bc-2: 0b2e28;
+    /* values */
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* box-sizing and font sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* body styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-col);
+    background-color: var(--bc-1);
+}
+
+
+/* headings styling */
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+
+/* List and anchor styling */
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--main-col);
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/* nav bar styling */
+
+nav {
+    font-weight: 600;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    min-height: 70px;
+    padding: 0 25px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+nav>ul {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+
+/* body tyling */
+
+#spacer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main>li {
+    list-style-type: disc;
+}
+
+main>#home {
+    margin-top: 200px;
+    height: 100vh;
+}
+
+
+/* Work Experience */
+
+#Work-Experience {
+    margin-top: 5px;
+}
+
+#Work-Experience #icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 20vw;
+}
+
+#Work-Experience .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+
+/* footer styling */
+
+footer {
+    margin-top: 25px;
+    padding: 20px;
+    width: 100%;
+    background-color: bisque;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer>ul>li {
+    padding: 0 12px;
+}
+
+footer>span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+
+/* STYLING FOR SMALL DEVICES */
+
+
+/* 1200px / 16px = 75em */
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+
+/* 980px / 16px = 61.25em */
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+
+/* 460px / 16px = 28.75em */
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}

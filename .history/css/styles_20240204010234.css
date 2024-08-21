@@ -1,0 +1,420 @@
+/** STYLING FOR THE PORTIFOLIO **/
+
+
+/* the root selector */
+
+:root {
+    /* colors */
+    --col-1: aliceblue;
+    --col-2: grey;
+    --colo-3: orangered;
+    --bc-1: #34a2a2;
+    --bc-2: #0b2e28;
+    --bc-3: #123b3b;
+    --bc-4: #45567d;
+    /* values */
+}
+
+
+/* general stylings */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* box-sizing and font sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* body styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--col-1);
+    background-color: var(--bc-1);
+}
+
+
+/* headings styling */
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+
+/* List and anchor styling */
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--col-1);
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/** NAVIGATION BAR */
+
+
+/* nav bar styling */
+
+nav {
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    background-color: var(--bc-2);
+}
+
+nav>ul {
+    display: flex;
+    margin-right: 2rem;
+    text-transform: uppercase;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+    background: var(--bc-4);
+}
+
+.nav-list a:visited {
+    border-bottom: .2rem solid #ff6347;
+}
+
+
+/* body styling */
+
+#spacer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main>li {
+    list-style-type: disc;
+}
+
+
+/** HOME PAGE */
+
+
+/* Styling or the Home Page */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: inherit;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#welcome-section>p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #d0a;
+}
+
+#title {
+    transform-origin: center;
+    animation: rotateAndChangeColor 14s infinite ease-in-out;
+}
+
+#sub-title {
+    text-indent: 10px;
+}
+
+#sub-title span {
+    display: inline-block;
+    animation: fallAnimation 4s infinite ease-in-out forwards;
+}
+
+
+/** PROJECTS */
+
+
+/* styling for projects */
+
+.project-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--bc-4);
+}
+
+.heading {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: .2rem solid var(--col-1);
+}
+
+
+/* grids */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+
+/* individual projects */
+
+.project {
+    background: var(--col-2);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+}
+
+.code {
+    color: var(--col-2);
+    transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+    color: var(--colo-3);
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+.btn-show-all {
+    font-size: 2rem;
+    background: var(--col-2);
+    transition: background 0.3s ease-out;
+}
+
+.btn-show-all:hover {
+    background: var(--colo-3);
+}
+
+.btn-show-all:hover>i {
+    transform: translateX(2px);
+}
+
+.btn-show-all>i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+
+/* Work Experience */
+
+.work-exp-section small {
+    font-size: 60%;
+}
+
+
+/* #Work-Experience #icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 20vw;
+}
+
+#Work-Experience .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+} */
+
+
+/** FOOTER */
+
+
+/* footer styling */
+
+footer {
+    margin-top: 25px;
+    padding: 20px;
+    width: 100%;
+    background-color: var(--bc-3);
+}
+
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer>ul>li {
+    padding: 0 12px;
+}
+
+footer>span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+
+/** ANIMATIONS AND EFFECTS */
+
+
+/* Welcome Page Animations */
+
+@keyframes rotateAndChangeColor {
+    0% {
+        transform: rotateY(0deg);
+        color: #333;
+    }
+    30% {
+        transform: rotateY(360deg);
+        color: #2e604a;
+    }
+    60% {
+        transform: rotate(0deg);
+        color: #45567d;
+    }
+    90% {
+        transform: rotate(360deg);
+        color: #ff6347;
+    }
+}
+
+@keyframes fallAnimation {
+    0% {
+        transform: translateY(-60px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-60px);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/** STYLING FOR SMALL DEVICES */
+
+
+/* 1200px / 16px = 75em */
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+
+/* 980px / 16px = 61.25em */
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+
+/* 460px / 16px = 28.75em */
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+/* nav bar media queries */
+
+@media (max-width: 28.75em) {
+    #navbar {
+        justify-content: center;
+    }
+    .nav-list {
+        margin: 0 1rem;
+    }
+}
+
+
+/* projects media query */
+
+@media (max-width: 28.75em) {
+    #project-heading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 30.625em) {
+    .project-section {
+        padding: 6rem 1rem;
+    }
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
